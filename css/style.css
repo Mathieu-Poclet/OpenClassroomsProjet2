@@ -41,6 +41,10 @@ ul {
     font-size: 22px;
 }
 
+.title-base-h2 {    
+    font-size: 18px;
+}
+
 /*************header*************/
 
 header {
@@ -67,6 +71,121 @@ header {
 }
 
 /****************fin header*****************/
+
+
+/***********section recherche **********/
+
+.section-recherche {        
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+h1 { 
+    margin-bottom: 8px;
+}
+
+                                        /*Partie formulaire de recherche*/
+.form-recherche {                                                               
+    display: flex;                      
+}
+
+.form-recherche label {    
+    background-color: var(--main-bg-color);
+    border-radius: 15px 0 0 15px;
+    font-size: 18px;
+    padding: 15px 18px;
+}
+
+.form-recherche i {
+    display: block;                     /*supprime les deux px sous l'icône*/
+    margin: auto;
+    width: 14px;   
+}
+
+.form-recherche #recherche {
+    width: 195px;
+    border-bottom: 1px solid var(--main-bg-color) ;
+    border-top: 1px solid var(--main-bg-color);
+    border-left: 0;
+    border-right: 0;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn2 {
+    display: none;
+}
+
+.btn1 {    
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 0 15px 15px 0;
+    border: 0;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 14px 16px;
+}
+
+                                        /*Partie filtre*/
+.filtre {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    gap: 15px;
+}
+
+.filtre ul {    
+    display: flex;
+    font-size: 17px;    
+    gap: 15px;    
+}
+
+.filtre .fa-solid {
+    font-size: 22px;
+}
+
+.filtre li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 25px;
+    padding: 0 19px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.filtre li:hover {
+    background-color: var(--filter-bg-color);
+}
+
+
+                                        /*Partie info*/
+.info {   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info div {
+    display: flex;    
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid var(--filter-bg-color);
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+}
+
+.info .fa-solid {
+    margin: auto;
+}
+
+/*******fin section recherche **********/
 
 .card {
     background-color: white;
