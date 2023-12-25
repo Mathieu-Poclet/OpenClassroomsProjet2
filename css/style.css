@@ -383,6 +383,29 @@ h1 {
 
 /********Fin Activités********/
 
+
+/**********footer************/
+
+.footer-list {
+    display: flex;
+    background-color: var(--main-bg-color);   
+}
+
+.footer-list div {
+    width: 33.33%;
+    padding: 20px;    
+}
+
+.footer-list li {
+    margin-top: 15px;
+}
+
+.footer-list li:hover {
+    color: var(--main-color);
+}
+
+/*******Fin Footer*********/
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
